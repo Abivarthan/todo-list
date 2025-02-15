@@ -1,0 +1,112 @@
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.div1{
+    width: 50%;
+    background-color: azure;
+    position: relative;
+    top: 50px;
+    color: #333333;
+ 
+  }
+.input-div{
+    background-color: skyblue;
+    padding: 1px;
+}
+#heads{
+    display: inline;
+    color:  white;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+#todolist{
+    width: 80%;
+    height: 30px;
+    display: inline;
+    margin: 15px;
+    font-size: larger;
+    outline: none;
+    border-color: #E0E0E0;
+}
+#todobtn{
+    color: white;
+    padding: 10px 30px 6px 30px;
+    background-color: #4A90E2;
+}
+#todobtn:hover{
+    background-color: blue;
+}
+ol{
+    padding-bottom: 10px;
+}
+li{
+    width: 90%;
+    cursor: pointer;         
+    align-items: center; 
+    font-size: larger;
+    border: 1px solid;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+li::marker{
+    color: black;
+}
+li button{
+    color: #6C757D;
+}
+#date-time{
+    font-size: 25px;
+    display: inline;
+    top: 20px;
+    position: relative;
+    color: white;
+}
+@media screen and (max-width:1024px){
+    .div1{
+        width: 95%;
+    }
+}
+@media screen and (max-width:550px){
+    #date-time{
+        font-size: 18px;
+        color: white;
+    }
+    #todolist{
+        width: 70%;
+        font-size: 20px;
+        margin-top: 15px;
+        margin: 15px 5px 15px 10px;
+    }
+    #todobtn{
+        padding: 7px 10px 5px 10px;
+        margin-bottom: px;
+    }
+    li{
+        font-size: 15px;
+        width: 80%;
+        padding: 8px 8px ;
+    }
+    ol{
+        padding-left: 25px;
+    }
+}
+/* .btn{
+    position: absolute;
+    right: 35px;
+} */
+/* @media screen and (max-width:798px){
+    .heads{
+        display: flex;
+        left:auto;
+
+    }
+    .date-time{
+        right: auto;
+    }
+} */

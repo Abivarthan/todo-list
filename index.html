@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <h1 id="heads" class="heads">📝TO DO LIST</h1>
+    <span id="date-time" class="date-time">Day and time</span>
+<div class="div1">
+    <div class="input-div">
+        <input id="todolist" placeholder="Enter Your List...">
+        <button id="todobtn" onclick="add()">Add</button>
+    </div>
+    <ol id="list-container">  
+        <li>WAKE UP😊😊😊<button class="addbtn" onclick="cancel(event)">✖</button>
+            <button class="addbtn" onclick="complete(event)">✔</button></li>
+    </ol>
+</div>
+
+</body>
+</html>
